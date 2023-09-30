@@ -6,4 +6,7 @@ In particular, the files included are the following.
 * Report: presents the same topic of the slides but with more details. It help catch up with the laboratory without the need of an explenator. It includes more detailed steps on the virtual machines needed to run the laboratory and their configuration;
 * Code: includes the skeleton of some of the code needed to perform the laboratory. 
 
-
+Authors:
+* Emanuele Beozzo
+* Gianluca Pasolini
+* Leonardo Xompero
