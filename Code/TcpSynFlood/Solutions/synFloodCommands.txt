@@ -1,0 +1,24 @@
+# list of useful commands for lab:
+
+Server:
+
+python3 -m http.server
+
+sudo wireshark
+
+sudo gnome-system-monitor
+
+wondershaper -a enp0s8 -u 50
+
+#################################################################################
+#################################################################################
+
+Client:
+
+sudo python3 synFloodV1.py 192.168.56.102 8000
+
+sudo iptables -A OUTPUT -p tcp --tcp-flags RST RST -s 192.168.56.101 -j DROP
+
+sudo python3 synFloodV2.py 192.168.56.102 8000
+
+sudo python3 synFloodV3.py 192.168.56.102 8000

